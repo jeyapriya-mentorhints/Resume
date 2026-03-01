@@ -836,7 +836,8 @@ const Home: React.FC = () => {
                       to="/builder"
                       className="w-full sm:w-52 py-5 bg-navy-900 text-white font-heading font-black uppercase tracking-widest text-xs rounded-full hover:bg-indigo-600 transition-all shadow-xl shadow-navy-900/20 hover:shadow-indigo-600/30 transform hover:-translate-y-1 flex items-center justify-center"
                     >
-                       Build Resume
+                       <span>Build Resume</span>
+                       <span className="ml-2 inline-block bg-green-500 text-white text-[10px] font-bold uppercase px-2 py-[2px] rounded-full">Free</span>
                     </Link>
                     <button 
                       onClick={handleImportClick}
